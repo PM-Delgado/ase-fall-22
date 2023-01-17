@@ -87,6 +87,7 @@ class Game:
 
     def has_winner(self):
         """Return True if the game has a winner, and False otherwise."""
+        print("Testing Branch")
         return self._has_winner
 
     def is_tied(self):
